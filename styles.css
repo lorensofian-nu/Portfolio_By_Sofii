@@ -121,11 +121,11 @@ a {
 }
 
 .hero {
-    min-height: 680px;
+    min-height: 560px;
     display: grid;
     grid-template-columns: 1fr .8fr;
     align-items: center;
-    padding: 72px 7% 100px;
+    padding: 56px 7% 72px;
     gap: 8%;
 }
 
@@ -209,6 +209,7 @@ h2 em {
     position: relative;
     overflow: hidden;
     aspect-ratio: 4 / 5;
+    position: relative;
     background: #d3cfc5;
     margin: 0;
 }
@@ -262,7 +263,7 @@ h2 em {
 
 .work {
     border-top: 1px solid var(--line);
-    padding: 120px 7% 140px;
+    padding: 84px 7% 96px;
 }
 
 .section-heading {
@@ -270,7 +271,7 @@ h2 em {
     grid-template-columns: 1fr 1.2fr .8fr;
     gap: 30px;
     align-items: start;
-    margin-bottom: 85px;
+    margin-bottom: 56px;
 }
 
 .section-heading h2 {
@@ -289,7 +290,7 @@ h2 em {
 .project-grid {
     display: grid;
     grid-template-columns: 1.05fr .8fr;
-    gap: 100px 6%;
+    gap: 64px 6%;
     align-items: start;
 }
 
@@ -298,7 +299,7 @@ h2 em {
 }
 
 .project-offset {
-    margin-top: 140px;
+    margin-top: 88px;
 }
 
 .project-wide {
@@ -421,7 +422,7 @@ h2 em {
     grid-template-columns: 1fr 2.1fr;
     gap: 7%;
     border-top: 1px solid var(--line);
-    padding: 120px 7% 140px;
+    padding: 84px 7% 96px;
 }
 
 .about-mark {
@@ -444,6 +445,13 @@ h2 em {
     background: var(--lilac);
     border: 1px dashed #9f89b4;
     text-align: center;
+}
+
+.about-photo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 .about-photo.is-empty::before {
@@ -501,7 +509,7 @@ h2 em {
     grid-template-columns: .8fr 1.2fr;
     gap: 8%;
     border-top: 1px solid var(--line);
-    padding: 120px 7% 140px;
+    padding: 84px 7% 96px;
 }
 
 .skills-heading h2 {
@@ -546,7 +554,7 @@ h2 em {
     grid-template-columns: .8fr 1.2fr;
     gap: 8%;
     border-top: 1px solid var(--line);
-    padding: 120px 7% 140px;
+    padding: 84px 7% 96px;
 }
 
 .languages-heading h2 {
@@ -611,7 +619,7 @@ h2 em {
 .contact {
     background: var(--ink);
     color: var(--paper);
-    padding: 90px 7% 70px;
+    padding: 72px 7% 56px;
     margin-bottom: 0;
 }
 
@@ -623,7 +631,7 @@ h2 em {
 
 .contact h2 {
     font-size: clamp(3.7rem, 7vw, 7rem);
-    margin: 100px 0 55px;
+    margin: 72px 0 40px;
 }
 
 .contact h2 em {
@@ -647,7 +655,7 @@ h2 em {
     gap: 35px;
     align-items: end;
     color: #a8a69e;
-    margin-top: 110px;
+    margin-top: 78px;
     line-height: 1.8;
 }
 
@@ -730,6 +738,7 @@ h2 em {
     }
 
     .site-nav.is-open {
+        width: 0;
         display: flex;
     }
 }
