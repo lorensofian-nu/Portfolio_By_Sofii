@@ -213,6 +213,20 @@ h2 em {
     margin: 0;
 }
 
+.hero-image-wrap.is-empty::after {
+    content: 'Agrega fotos/hero.jpg';
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #6e5a7e;
+    font-family: var(--mono);
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    background: var(--lilac);
+}
+
 .hero-image-wrap img {
     width: 100%;
     height: 100%;
@@ -430,6 +444,26 @@ h2 em {
     background: var(--lilac);
     border: 1px dashed #9f89b4;
     text-align: center;
+}
+
+.about-photo.is-empty::before {
+    content: 'Agrega fotos/perfil.png';
+    position: absolute;
+    color: #6e5a7e;
+    font-family: var(--mono);
+    font-size: .58rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+}
+
+.about-photo figcaption {
+    position: absolute;
+    padding: 8px 12px;
+    font-family: var(--mono);
+    font-size: .58rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    background: rgba(241, 232, 246, .9);
 }
 
 .about-photo span {
