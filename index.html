@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Sofía Ramírez, diseñadora y desarrolladora frontend." />
+    <meta name="theme-color" content="#f3efe7" />
+    <title>Sofía Ramírez — Diseñadora & frontend developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Sofía Ramírez, volver al inicio">SR<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="menu-label">Menú</span><span class="menu-icon" aria-hidden="true">↗</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Navegación principal"><a href="#trabajo">Trabajo</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto</a></nav>
+      <a class="availability" href="#contacto"><span></span> Disponible para proyectos</a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy"><p class="eyebrow">Diseño digital · Desarrollo frontend</p><h1 id="hero-title">Ideas claras,<br /><em>experiencias</em> que<br />se recuerdan.</h1><p class="hero-intro">Soy Sofía, diseñadora y frontend developer. Convierto problemas complejos en productos digitales simples, útiles y con carácter.</p><a class="arrow-link" href="#trabajo">Ver proyectos <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-visual"><div class="hero-image-wrap"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1000&q=75" alt="Cuaderno abierto junto a muestras de color y herramientas de diseño" width="1000" height="1250" fetchpriority="high" /><span class="image-stamp">Est. 2019<br />Bogotá · CO</span></div><p class="vertical-note">Diseño con intención <span>✳</span></p></div>
+      </section>
+
+      <section id="trabajo" class="work section-shell" aria-labelledby="work-title"><div class="section-heading"><p class="eyebrow">01 / Trabajo seleccionado</p><h2 id="work-title">Proyectos que<br /><em>dicen algo.</em></h2><p class="section-note">Una selección de trabajos donde estrategia, diseño y código trabajan en la misma dirección.</p></div><div class="project-grid">
+        <a class="project project-large" href="#contacto"><div class="project-art art-coral"><span class="art-word">NODO</span><span class="art-detail">Branding · 2024</span><span class="art-arrow">↗</span></div><div class="project-meta"><h3>Nodo Studio</h3><p>Identidad & dirección de arte</p></div></a>
+        <a class="project project-offset" href="#contacto"><div class="project-art art-lilac"><span class="art-orbit"></span><span class="art-word small">LÚMINA</span><span class="art-detail">Digital product · 2023</span><span class="art-arrow">↗</span></div><div class="project-meta"><h3>Lúmina Health</h3><p>Producto digital & UX/UI</p></div></a>
+        <a class="project project-wide" href="#contacto"><div class="project-art art-yellow"><span class="art-word dark">PAUSA</span><span class="art-detail">E-commerce · 2022</span><span class="art-arrow">↗</span></div><div class="project-meta"><h3>Pausa Objects</h3><p>E-commerce & desarrollo web</p></div></a>
+      </div></section>
+
+      <section id="sobre-mi" class="about section-shell" aria-labelledby="about-title"><div class="about-label"><p class="eyebrow">02 / Sobre mí</p><span class="about-mark">✳</span></div><div class="about-content"><h2 id="about-title">El detalle no es<br />un detalle. <em>Es todo.</em></h2><div class="about-columns"><p>Me interesa lo que pasa entre una buena idea y el momento en que alguien la usa. Llevo más de 5 años creando identidades, interfaces y sitios web para equipos que quieren hacer las cosas bien.</p><p>Trabajo de cerca con personas, no solo con briefs. Escucho, cuestiono y construyo hasta que la solución se siente inevitable.</p></div><a class="arrow-link" href="#contacto">Conocerme mejor <span aria-hidden="true">↗</span></a></div></section>
+
+      <section id="contacto" class="contact section-shell" aria-labelledby="contact-title"><div class="contact-top"><p class="eyebrow">03 / Contacto</p><span>¿Tienes un proyecto?</span></div><h2 id="contact-title">Hagamos algo<br /><em>que importe.</em></h2><a class="email-link" href="mailto:hola@sofiaramirez.design">hola@sofiaramirez.design <span>↗</span></a><div class="contact-bottom"><p>Disponible para proyectos freelance<br />y colaboraciones seleccionadas.</p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a></div></section>
+    </main>
+    <footer class="site-footer section-shell"><span>© 2024 Sofía Ramírez</span><span>Hecho con intención <span aria-hidden="true">✳</span></span><a href="#inicio">Volver arriba ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
