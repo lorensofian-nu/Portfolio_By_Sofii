@@ -1,6 +1,6 @@
 # Portfolio de Sofía Núñez
 
-One page responsive para presentar trabajo de diseño digital y desarrollo frontend.
+One page responsive para presentar el trabajo de Sofía Núñez como desarrolladora frontend junior.
 
 ## Ejecutar en local
 
