@@ -289,9 +289,8 @@ h2 em {
 
 .project-grid {
     display: grid;
-    grid-template-columns: 1.05fr .8fr;
-    gap: 64px 6%;
-    align-items: start;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 64px;
 }
 
 .project {
@@ -299,14 +298,12 @@ h2 em {
 }
 
 .project-offset {
-    margin-top: 88px;
+    margin-top: 0;
 }
 
 .project-wide {
-    grid-column: 1 / -1;
-    width: 58%;
-    margin-left: auto;
-    margin-right: 8%;
+    width: 100%;
+    margin: 0;
 }
 
 .project-art {
