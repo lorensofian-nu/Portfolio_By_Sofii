@@ -1,4 +1,4 @@
-# Portfolio de Sofía Ramírez
+# Portfolio de Sofía Núñez
 
 One page responsive para presentar trabajo de diseño digital y desarrollo frontend.
 
